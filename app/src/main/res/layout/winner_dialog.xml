@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/dialog_layout"
+    android:padding="@dimen/_30sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/winnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_50ssp"
+        android:textColor="@color/white"
+        android:text="X" />
+
+    <TextView
+        android:id="@+id/tieOrWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_50ssp"
+        android:textColor="@color/white"
+        android:text="Wins" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_25ssp"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_btn"
+        android:text="Play Again"
+        android:layout_marginTop="@dimen/_15sdp"/>
+
+</LinearLayout>
